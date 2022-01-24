@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{2ff6463e-91c1-4ef2-b844-0c8e2101e7c8}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ADM.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\BugTimeout.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\Common.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\nLO.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\SLO.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\TLO.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\TypeContainer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\ULO.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\VLO.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\Watcher.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\_MACHINE.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\_USER_SETTINGS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ADM.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\BugTimeout.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\Common.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\nLO.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\SLO.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\TLO.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\TypeContainers.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\ULO.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\VLO.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\Watcher.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\_MACHINE.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\_USER_SETTINGS.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)src\_machine\cpp.hint" />
+  </ItemGroup>
+</Project>

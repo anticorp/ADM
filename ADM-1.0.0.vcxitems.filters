@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)src\_machine\cpp.hint">
+      <Filter>ADM</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ADM">
+      <UniqueIdentifier>{5e34ac11-2895-476c-8341-3052705e3f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADM\_machine">
+      <UniqueIdentifier>{78c4e53f-abf9-4e45-8155-285936251c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADM\_SETTINGS">
+      <UniqueIdentifier>{357a0f4d-9022-4a53-aabe-12c11df04ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADM\_machine\SLO">
+      <UniqueIdentifier>{d5cd9cda-5851-4124-b074-05b834543475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADM\_machine\TLO">
+      <UniqueIdentifier>{b94308b5-3a9d-41de-9aaf-a7b016e253eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADM\_machine\Watcher">
+      <UniqueIdentifier>{c6f46276-2e8f-449a-9a46-8b4b44262bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADM\_machine\ULO">
+      <UniqueIdentifier>{060b0363-1732-4142-a1f0-778c4127d96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADM\_machine\TypeContainer">
+      <UniqueIdentifier>{09f466b6-85b1-402c-a758-b49202014999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADM\_machine\nLO">
+      <UniqueIdentifier>{790fa699-41df-478d-80ed-431d4c8001c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADM\_machine\Common">
+      <UniqueIdentifier>{d87ba900-2bfd-488e-af31-c9e90fcdc881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADM\_machine\VLO">
+      <UniqueIdentifier>{0c71aeab-ba4f-4365-9f27-ae75c0b6af26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADM\_machine\TIMEOUT">
+      <UniqueIdentifier>{fd553ce0-7108-4f36-883e-86ccbb777772}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ADM.h">
+      <Filter>ADM</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\_MACHINE.h">
+      <Filter>ADM\_machine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\_USER_SETTINGS.h">
+      <Filter>ADM\_SETTINGS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\TypeContainers.h">
+      <Filter>ADM\_machine\TypeContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\ULO.h">
+      <Filter>ADM\_machine\ULO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\nLO.h">
+      <Filter>ADM\_machine\nLO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\SLO.h">
+      <Filter>ADM\_machine\SLO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\TLO.h">
+      <Filter>ADM\_machine\TLO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\Watcher.h">
+      <Filter>ADM\_machine\Watcher</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\Common.h">
+      <Filter>ADM\_machine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\VLO.h">
+      <Filter>ADM\_machine\VLO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\_machine\BugTimeout.h">
+      <Filter>ADM\_machine\TIMEOUT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ADM.cpp">
+      <Filter>ADM</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\_MACHINE.cpp">
+      <Filter>ADM\_machine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\_USER_SETTINGS.cpp">
+      <Filter>ADM\_SETTINGS</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\TypeContainer.cpp">
+      <Filter>ADM\_machine\TypeContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\ULO.cpp">
+      <Filter>ADM\_machine\ULO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\nLO.cpp">
+      <Filter>ADM\_machine\nLO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\SLO.cpp">
+      <Filter>ADM\_machine\SLO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\TLO.cpp">
+      <Filter>ADM\_machine\TLO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\Watcher.cpp">
+      <Filter>ADM\_machine\Watcher</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\Common.cpp">
+      <Filter>ADM\_machine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\VLO.cpp">
+      <Filter>ADM\_machine\VLO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\_machine\BugTimeout.cpp">
+      <Filter>ADM\_machine\TIMEOUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
